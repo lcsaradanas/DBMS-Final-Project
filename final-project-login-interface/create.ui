@@ -37,7 +37,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 78pt &quot;Vogue&quot;; color:rgb(255, 244, 216)</string>
+     <string notr="true">font: 78pt &quot;Century Gothic&quot;; color:rgb(255, 244, 216)</string>
     </property>
     <property name="text">
      <string>C R E A T E</string>
@@ -85,7 +85,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      <string>E-MAIL ADDRESS</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="first_name">
+   <widget class="QLineEdit" name="fname">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -111,7 +111,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      <string>FIRST NAME</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="last_name">
+   <widget class="QLineEdit" name="lname">
     <property name="geometry">
      <rect>
       <x>690</x>
@@ -137,7 +137,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      <string>LAST NAME</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="username">
+   <widget class="QLineEdit" name="user1">
     <property name="geometry">
      <rect>
       <x>690</x>
@@ -163,7 +163,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      <string>USERNAME</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="c_password">
+   <widget class="QLineEdit" name="password2">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -173,7 +173,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      </rect>
     </property>
    </widget>
-   <widget class="QLineEdit" name="password">
+   <widget class="QLineEdit" name="password1">
     <property name="geometry">
      <rect>
       <x>270</x>
@@ -233,7 +233,7 @@ font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
      <string>SIGN UP</string>
     </property>
    </widget>
-   <widget class="QLabel" name="invalid">
+   <widget class="QLabel" name="error">
     <property name="geometry">
      <rect>
       <x>690</x>
@@ -248,7 +248,7 @@ font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
 font: 75 italic 12pt &quot;Century Gothic&quot;;color:rgb(255, 0, 0)</string>
     </property>
     <property name="text">
-     <string>Please fill in all of the required information</string>
+     <string/>
     </property>
    </widget>
   </widget>

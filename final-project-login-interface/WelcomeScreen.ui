@@ -10,7 +10,7 @@
     <x>0</x>
     <y>0</y>
     <width>1286</width>
-    <height>800</height>
+    <height>811</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,8 +21,8 @@
     <rect>
      <x>-10</x>
      <y>0</y>
-     <width>1301</width>
-     <height>811</height>
+     <width>1571</width>
+     <height>1036</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -32,24 +32,25 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>310</x>
+      <x>300</x>
       <y>250</y>
       <width>731</width>
       <height>91</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 78pt &quot;Vogue&quot;; color:rgb(98, 135, 133)</string>
+     <string notr="true">font: 78pt &quot;Century Gothic&quot;; color:rgb(98, 135, 133)
+</string>
     </property>
     <property name="text">
-     <string>W e l c o m e</string>
+     <string>W E L C O M E</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>430</x>
-      <y>340</y>
+      <x>450</x>
+      <y>350</y>
       <width>521</width>
       <height>61</height>
      </rect>
@@ -65,7 +66,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
    <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>450</x>
       <y>420</y>
       <width>391</width>
       <height>61</height>
@@ -83,7 +84,7 @@ font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
    <widget class="QPushButton" name="create">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>450</x>
       <y>500</y>
       <width>391</width>
       <height>61</height>

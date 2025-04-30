@@ -36,7 +36,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 78pt &quot;Vogue&quot;; color:rgb(255, 244, 216)</string>
+     <string notr="true">font: 78pt &quot;Century Gothic&quot;; color:rgb(255, 244, 216)</string>
     </property>
     <property name="text">
      <string>L O G I N</string>
@@ -61,7 +61,7 @@ background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73,
    <widget class="QPushButton" name="login">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>450</x>
       <y>570</y>
       <width>391</width>
       <height>61</height>
@@ -131,14 +131,14 @@ font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
    <widget class="QLabel" name="error1">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>520</y>
-      <width>551</width>
-      <height>16</height>
+      <x>400</x>
+      <y>510</y>
+      <width>471</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 75 italic 12pt &quot;Century Gothic&quot;;color:rgb(255, 0, 0)</string>
+     <string notr="true">font: 75 italic 12pt &quot;Century Gothic&quot;;color:red;</string>
     </property>
     <property name="text">
      <string/>
