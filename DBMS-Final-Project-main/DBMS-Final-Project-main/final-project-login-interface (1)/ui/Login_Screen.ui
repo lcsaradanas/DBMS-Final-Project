@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1301</width>
+    <height>811</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1301</width>
+     <height>811</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:qradialgradient(spread:pad, cx:0.512, cy:0.511364, radius:0.73, fx:0.511, fy:0.505364, stop:0 rgba(154, 211, 197, 255), stop:1 rgba(255, 253, 234, 255));}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>120</y>
+      <width>541</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 78pt &quot;Century Gothic&quot;; color:rgb(255, 244, 216)</string>
+    </property>
+    <property name="text">
+     <string>L O G I N</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>240</y>
+      <width>451</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;Lemon/Milk&quot;;color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string>Log in to your exisiting account</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>550</y>
+      <width>391</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;
+background-color:rgb(255, 225, 189);
+font: 75 18pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>LOG IN</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="userfield">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>360</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordfield">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>450</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>340</y>
+      <width>121</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>USERNAME</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>430</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>PASSWORD</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error1">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>510</y>
+      <width>471</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 12pt &quot;Century Gothic&quot;;color:red;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
